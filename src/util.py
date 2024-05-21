@@ -13,12 +13,3 @@ def get_points(filename):
             ))
 
     return points
-
-
-def plot_points(points: list):
-    x = [point.x for point in points]
-    y = [point.y for point in points]
-
-    pyplot.scatter(x, y)
-    pyplot.show()
-
